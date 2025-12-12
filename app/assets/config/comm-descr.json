@@ -1,0 +1,1167 @@
+{
+  "communities": [
+    {
+      "community": [65535, 65281],
+      "title": "No Export",
+      "color": "#ff5274"
+    },
+    {
+      "community": [64511, 1],
+      "title": "DN42 Latency: 0-2.7ms",
+      "color": "#10b981"
+    },
+    {
+      "community": [64511, 2],
+      "title": "DN42 Latency: 2.7-7.3ms",
+      "color": "#34d399"
+    },
+    {
+      "community": [64511, 3],
+      "title": "DN42 Latency: 7.3-20ms",
+      "color": "#6ee7b7"
+    },
+    {
+      "community": [64511, 4],
+      "title": "DN42 Latency: 20-55ms",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [64511, 5],
+      "title": "DN42 Latency: 55-148ms",
+      "color": "#fbbf24"
+    },
+    {
+      "community": [64511, 6],
+      "title": "DN42 Latency: 148-403ms",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [64511, 7],
+      "title": "DN42 Latency: 403-1097ms",
+      "color": "#fb923c"
+    },
+    {
+      "community": [64511, 8],
+      "title": "DN42 Latency: 1.1s-3s",
+      "color": "#ef4444"
+    },
+    {
+      "community": [64511, 9],
+      "title": "DN42 Latency: > 3s",
+      "color": "#b91c1c"
+    },
+    {
+      "community": [64511, 21],
+      "title": "DN42 Bandwidth: >= 0.1 Mbps",
+      "color": "#dbeafe"
+    },
+    {
+      "community": [64511, 22],
+      "title": "DN42 Bandwidth: >= 1 Mbps",
+      "color": "#93c5fd"
+    },
+    {
+      "community": [64511, 23],
+      "title": "DN42 Bandwidth: >= 10 Mbps",
+      "color": "#60a5fa"
+    },
+    {
+      "community": [64511, 24],
+      "title": "DN42 Bandwidth: >= 100 Mbps",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [64511, 25],
+      "title": "DN42 Bandwidth: >= 1 Gbps",
+      "color": "#1d4ed8"
+    },
+    {
+      "community": [64511, 31],
+      "title": "DN42 Enc: Unencrypted",
+      "color": "#ef4444"
+    },
+    {
+      "community": [64511, 32],
+      "title": "DN42 Enc: Unsafe VPN",
+      "color": "#f97316"
+    },
+    {
+      "community": [64511, 33],
+      "title": "DN42 Enc: Safe VPN (No PFS)",
+      "color": "#84cc16"
+    },
+    {
+      "community": [64511, 34],
+      "title": "DN42 Enc: Safe VPN (PFS)",
+      "color": "#10b981"
+    },
+    {
+      "community": [64511, 41],
+      "title": "DN42 Origin: Europe",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 42],
+      "title": "DN42 Origin: North America-E",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 43],
+      "title": "DN42 Origin: North America-C",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 44],
+      "title": "DN42 Origin: North America-W",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 45],
+      "title": "DN42 Origin: Central America",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 46],
+      "title": "DN42 Origin: South America-E",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 47],
+      "title": "DN42 Origin: South America-W",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 48],
+      "title": "DN42 Origin: Africa-N",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 49],
+      "title": "DN42 Origin: Africa-S",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 50],
+      "title": "DN42 Origin: Asia-S",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 51],
+      "title": "DN42 Origin: Asia-SE",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 52],
+      "title": "DN42 Origin: Asia-E",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 53],
+      "title": "DN42 Origin: Pacific & Oceania",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 54],
+      "title": "DN42 Origin: Antarctica",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 55],
+      "title": "DN42 Origin: Asia-N",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 56],
+      "title": "DN42 Origin: Asia-W",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 57],
+      "title": "DN42 Origin: Central Asia",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [64511, 1124],
+      "title": "DN42 Country: Canada",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1156],
+      "title": "DN42 Country: China",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1158],
+      "title": "DN42 Country: Taiwan",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1250],
+      "title": "DN42 Country: France",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1276],
+      "title": "DN42 Country: Germany",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1344],
+      "title": "DN42 Country: Hong Kong",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1392],
+      "title": "DN42 Country: Japan",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1528],
+      "title": "DN42 Country: Netherlands",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1578],
+      "title": "DN42 Country: Norway",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1643],
+      "title": "DN42 Country: Russian Federation",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1702],
+      "title": "DN42 Country: Singapore",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1756],
+      "title": "DN42 Country: Switzerland",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1826],
+      "title": "DN42 Country: United Kingdom",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [64511, 1840],
+      "title": "DN42 Country: United States of America",
+      "color": "#06b6d4"
+    }
+  ],
+  "ext_communities": [],
+  "large_communities": [
+    {
+      "community": [4242421331, 666, 0],
+      "title": "1331: Blackhole",
+      "color": "#000000"
+    },
+    {
+      "community": [4242421331, 2, 1],
+      "title": "1331: Local Pref: 100",
+      "color": "#10b981"
+    },
+    {
+      "community": [4242421331, 2, 2],
+      "title": "1331: Local Pref: 200",
+      "color": "#059669"
+    },
+    {
+      "community": [4242421331, 2, 3],
+      "title": "1331: Local Pref: 0",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242421331, 5, 1],
+      "title": "1331: Prepend x1",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242421331, 5, 2],
+      "title": "1331: Prepend x2",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242421331, 5, 3],
+      "title": "1331: Prepend x3",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242421331, 5, 4],
+      "title": "1331: Prepend x4",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242421331, 5, 5],
+      "title": "1331: Prepend x5",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242421331, 4, 10],
+      "title": "1331: Peer Type: Full Table",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242421331, 4, 20],
+      "title": "1331: Peer Type: Transit",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242421331, 4, 21],
+      "title": "1331: Peer Type: Private Transit",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242421331, 4, 30],
+      "title": "1331: Peer Type: Downstream",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242421331, 4, 40],
+      "title": "1331: Peer Type: Peer",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242421331, 4, 41],
+      "title": "1331: Peer Type: Private Peer",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242421331, 20, 1],
+      "title": "1331: RPKI: VALID",
+      "color": "#10b981"
+    },
+    {
+      "community": [4242421331, 20, 2],
+      "title": "1331: RPKI: INVALID",
+      "color": "#ef4444"
+    },
+    {
+      "community": [4242421331, 20, 3],
+      "title": "1331: RPKI: UNKNOWN",
+      "color": "#9ca3af"
+    },
+    {
+      "community": [4242421331, 20, 4],
+      "title": "1331: RPKI: INVALID (Flapping)",
+      "color": "#b91c1c"
+    },
+    {
+      "community": [4242421331, 9, 1],
+      "title": "1331: Source: iBGP",
+      "color": "#ffb74d"
+    },
+    {
+      "community": [4242421331, 9, 2],
+      "title": "1331: Source: eBGP",
+      "color": "#7986cb"
+    },
+    {
+      "community": [4242421331, 6, 1],
+      "title": "1331: Origin: Unknown",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 41],
+      "title": "1331: Origin: Europe",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 42],
+      "title": "1331: Origin: North America-E",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 43],
+      "title": "1331: Origin: North America-C",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 44],
+      "title": "1331: Origin: North America-W",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 45],
+      "title": "1331: Origin: Central America",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 46],
+      "title": "1331: Origin: South America-E",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 47],
+      "title": "1331: Origin: South America-W",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 48],
+      "title": "1331: Origin: Africa-N",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 49],
+      "title": "1331: Origin: Africa-S",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 50],
+      "title": "1331: Origin: Asia-S",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 51],
+      "title": "1331: Origin: Asia-SE",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 52],
+      "title": "1331: Origin: Asia-E",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 53],
+      "title": "1331: Origin: Pacific & Oceania",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 54],
+      "title": "1331: Origin: Antarctica",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 55],
+      "title": "1331: Origin: Asia-N",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 56],
+      "title": "1331: Origin: Asia-W",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 57],
+      "title": "1331: Origin: Central Asia",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242421331, 6, 1124],
+      "title": "1331: Origin: Canada",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1156],
+      "title": "1331: Origin: China",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1158],
+      "title": "1331: Origin: Taiwan",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1250],
+      "title": "1331: Origin: France",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1276],
+      "title": "1331: Origin: Germany",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1344],
+      "title": "1331: Origin: Hong Kong",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1392],
+      "title": "1331: Origin: Japan",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1528],
+      "title": "1331: Origin: Netherlands",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1578],
+      "title": "1331: Origin: Norway",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1643],
+      "title": "1331: Origin: Russian Federation",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1702],
+      "title": "1331: Origin: Singapore",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1756],
+      "title": "1331: Origin: Switzerland",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1826],
+      "title": "1331: Origin: United Kingdom",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 6, 1840],
+      "title": "1331: Origin: United States of America",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242421331, 7, 41],
+      "title": "1331: Import: Europe",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 42],
+      "title": "1331: Import: North America-E",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 43],
+      "title": "1331: Import: North America-C",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 44],
+      "title": "1331: Import: North America-W",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 45],
+      "title": "1331: Import: Central America",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 46],
+      "title": "1331: Import: South America-E",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 47],
+      "title": "1331: Import: South America-W",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 48],
+      "title": "1331: Import: Africa-N",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 49],
+      "title": "1331: Import: Africa-S",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 50],
+      "title": "1331: Import: Asia-S",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 51],
+      "title": "1331: Import: Asia-SE",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 52],
+      "title": "1331: Import: Asia-E",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 53],
+      "title": "1331: Import: Pacific & Oceania",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 54],
+      "title": "1331: Import: Antarctica",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 55],
+      "title": "1331: Import: Asia-N",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 56],
+      "title": "1331: Import: Asia-W",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 7, 57],
+      "title": "1331: Import: Central Asia",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242421331, 11, 41],
+      "title": "1331: Prepend x1 @ Europe",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 11, 42],
+      "title": "1331: Prepend x1 @ NA-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 11, 51],
+      "title": "1331: Prepend x1 @ Asia-SE",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 11, 52],
+      "title": "1331: Prepend x1 @ Asia-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 12, 41],
+      "title": "1331: Prepend x2 @ Europe",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 12, 42],
+      "title": "1331: Prepend x2 @ NA-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 12, 51],
+      "title": "1331: Prepend x2 @ Asia-SE",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 12, 52],
+      "title": "1331: Prepend x2 @ Asia-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 13, 41],
+      "title": "1331: Prepend x3 @ Europe",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 13, 42],
+      "title": "1331: Prepend x3 @ NA-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 13, 51],
+      "title": "1331: Prepend x3 @ Asia-SE",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242421331, 13, 52],
+      "title": "1331: Prepend x3 @ Asia-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 666, 0],
+      "title": "0803: Blackhole",
+      "color": "#000000"
+    },
+    {
+      "community": [4242420803, 2, 1],
+      "title": "0803: Local Pref: 100",
+      "color": "#10b981"
+    },
+    {
+      "community": [4242420803, 2, 2],
+      "title": "0803: Local Pref: 200",
+      "color": "#059669"
+    },
+    {
+      "community": [4242420803, 2, 3],
+      "title": "0803: Local Pref: 0",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242420803, 5, 1],
+      "title": "0803: Prepend x1",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242420803, 5, 2],
+      "title": "0803: Prepend x2",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242420803, 5, 3],
+      "title": "0803: Prepend x3",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242420803, 5, 4],
+      "title": "0803: Prepend x4",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242420803, 5, 5],
+      "title": "0803: Prepend x5",
+      "color": "#f59e0b"
+    },
+    {
+      "community": [4242420803, 4, 10],
+      "title": "0803: Peer Type: Full Table",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242420803, 4, 20],
+      "title": "0803: Peer Type: Transit",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242420803, 4, 21],
+      "title": "0803: Peer Type: Private Transit",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242420803, 4, 30],
+      "title": "0803: Peer Type: Downstream",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242420803, 4, 40],
+      "title": "0803: Peer Type: Peer",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242420803, 4, 41],
+      "title": "0803: Peer Type: Private Peer",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242420803, 20, 1],
+      "title": "0803: RPKI: VALID",
+      "color": "#10b981"
+    },
+    {
+      "community": [4242420803, 20, 2],
+      "title": "0803: RPKI: INVALID",
+      "color": "#ef4444"
+    },
+    {
+      "community": [4242420803, 20, 3],
+      "title": "0803: RPKI: UNKNOWN",
+      "color": "#9ca3af"
+    },
+    {
+      "community": [4242420803, 20, 4],
+      "title": "0803: RPKI: INVALID (Flapping)",
+      "color": "#b91c1c"
+    },
+    {
+      "community": [4242420803, 6, 1],
+      "title": "0803: Origin: Unknown",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 41],
+      "title": "0803: Origin: Europe",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 42],
+      "title": "0803: Origin: North America-E",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 43],
+      "title": "0803: Origin: North America-C",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 44],
+      "title": "0803: Origin: North America-W",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 45],
+      "title": "0803: Origin: Central America",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 46],
+      "title": "0803: Origin: South America-E",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 47],
+      "title": "0803: Origin: South America-W",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 48],
+      "title": "0803: Origin: Africa-N",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 49],
+      "title": "0803: Origin: Africa-S",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 50],
+      "title": "0803: Origin: Asia-S",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 51],
+      "title": "0803: Origin: Asia-SE",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 52],
+      "title": "0803: Origin: Asia-E",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 53],
+      "title": "0803: Origin: Pacific & Oceania",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 54],
+      "title": "0803: Origin: Antarctica",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 55],
+      "title": "0803: Origin: Asia-N",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 56],
+      "title": "0803: Origin: Asia-W",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 57],
+      "title": "0803: Origin: Central Asia",
+      "color": "#8b5cf6"
+    },
+    {
+      "community": [4242420803, 6, 1124],
+      "title": "0803: Origin: Canada",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1156],
+      "title": "0803: Origin: China",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1158],
+      "title": "0803: Origin: Taiwan",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1250],
+      "title": "0803: Origin: France",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1276],
+      "title": "0803: Origin: Germany",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1344],
+      "title": "0803: Origin: Hong Kong",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1392],
+      "title": "0803: Origin: Japan",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1528],
+      "title": "0803: Origin: Netherlands",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1578],
+      "title": "0803: Origin: Norway",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1643],
+      "title": "0803: Origin: Russian Federation",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1702],
+      "title": "0803: Origin: Singapore",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1756],
+      "title": "0803: Origin: Switzerland",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1826],
+      "title": "0803: Origin: United Kingdom",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 6, 1840],
+      "title": "0803: Origin: United States of America",
+      "color": "#06b6d4"
+    },
+    {
+      "community": [4242420803, 7, 41],
+      "title": "0803: Import: Europe",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 42],
+      "title": "0803: Import: North America-E",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 43],
+      "title": "0803: Import: North America-C",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 44],
+      "title": "0803: Import: North America-W",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 45],
+      "title": "0803: Import: Central America",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 46],
+      "title": "0803: Import: South America-E",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 47],
+      "title": "0803: Import: South America-W",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 48],
+      "title": "0803: Import: Africa-N",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 49],
+      "title": "0803: Import: Africa-S",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 50],
+      "title": "0803: Import: Asia-S",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 51],
+      "title": "0803: Import: Asia-SE",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 52],
+      "title": "0803: Import: Asia-E",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 53],
+      "title": "0803: Import: Pacific & Oceania",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 54],
+      "title": "0803: Import: Antarctica",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 55],
+      "title": "0803: Import: Asia-N",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 56],
+      "title": "0803: Import: Asia-W",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 7, 57],
+      "title": "0803: Import: Central Asia",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242420803, 9, 1],
+      "title": "0803: Source: iBGP",
+      "color": "#ffb74d"
+    },
+    {
+      "community": [4242420803, 9, 2],
+      "title": "0803: Source: eBGP",
+      "color": "#7986cb"
+    },
+    {
+      "community": [4242420803, 11, 41],
+      "title": "0803: Prepend x1 @ Europe",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 11, 42],
+      "title": "0803: Prepend x1 @ NA-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 11, 51],
+      "title": "0803: Prepend x1 @ Asia-SE",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 11, 52],
+      "title": "0803: Prepend x1 @ Asia-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 12, 41],
+      "title": "0803: Prepend x2 @ Europe",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 12, 42],
+      "title": "0803: Prepend x2 @ NA-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 12, 51],
+      "title": "0803: Prepend x2 @ Asia-SE",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 12, 52],
+      "title": "0803: Prepend x2 @ Asia-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 13, 41],
+      "title": "0803: Prepend x3 @ Europe",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 13, 42],
+      "title": "0803: Prepend x3 @ NA-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 13, 51],
+      "title": "0803: Prepend x3 @ Asia-SE",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242420803, 13, 52],
+      "title": "0803: Prepend x3 @ Asia-E",
+      "color": "#fcd34d"
+    },
+    {
+      "community": [4242422601, 130, 1],
+      "title": "2601: Direct Peer",
+      "color": "#3b82f6"
+    },
+    {
+      "community": [4242422601, 140, 41],
+      "title": "2601: Import: Europe",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 42],
+      "title": "2601: Import: North America-E",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 43],
+      "title": "2601: Import: North America-C",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 44],
+      "title": "2601: Import: North America-W",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 45],
+      "title": "2601: Import: Central America",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 46],
+      "title": "2601: Import: South America-E",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 47],
+      "title": "2601: Import: South America-W",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 48],
+      "title": "2601: Import: Africa-N",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 49],
+      "title": "2601: Import: Africa-S",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 50],
+      "title": "2601: Import: Asia-S",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 51],
+      "title": "2601: Import: Asia-SE",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 52],
+      "title": "2601: Import: Asia-E",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 53],
+      "title": "2601: Import: Pacific & Oceania",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 54],
+      "title": "2601: Import: Antarctica",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 55],
+      "title": "2601: Import: Asia-N",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 56],
+      "title": "2601: Import: Asia-W",
+      "color": "#6366f1"
+    },
+    {
+      "community": [4242422601, 140, 57],
+      "title": "2601: Import: Central Asia",
+      "color": "#6366f1"
+    }
+  ]
+}

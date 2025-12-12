@@ -1,0 +1,48 @@
+{
+  "fd00:1926:817:13::": {
+    "name": "apr1.hk",
+    "country": "HK",
+    "location": "Hong Kong"
+  },
+  "fd00:1926:817:4::": {
+    "name": "vul1.sg",
+    "country": "SG",
+    "location": "Singapore"
+  },
+  "fd00:1926:817:5::": {
+    "name": "lax1.us",
+    "country": "US",
+    "location": "Los Angeles, United States"
+  },
+  "fd00:1926:817:16::": {
+    "name": "fra1.de",
+    "country": "DE",
+    "location": "Frankfurt, Germany"
+  },
+  "fd00:1926:817:a::": {
+    "name": "sol1.kr",
+    "country": "KR",
+    "location": "Seoul, Korea"
+  },
+  "fd00:1926:817:2::": {
+    "name": "fmt1.us",
+    "country": "US",
+    "location": "Fremont, United States"
+  },
+  "fd00:1926:817:22::": {
+    "name": "yyz1.ca",
+    "country": "CA",
+    "location": "Toronto, Canada"
+  },
+  "fd00:1926:817:e::": {
+    "name": "yzu1.tw",
+    "country": "TW",
+    "location": "Taoyuan, Taiwan"
+  },
+  "fd00:1926:817:11::": {
+    "name": "mci1.us",
+    "country": "US",
+    "location": "Kansas City, United States"
+  }
+}
+

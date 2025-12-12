@@ -1,0 +1,34 @@
+{
+  "name": "lookingglass42",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "date-fns": "^4.1.0",
+    "ip-address": "^10.1.0",
+    "nuxt": "^4.2.2",
+    "vite-plugin-vuetify": "^2.1.2",
+    "vuetify": "^3.11.3"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.12.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.1.8"
+  },
+  "packageManager": "pnpm@10.23.0"
+}
