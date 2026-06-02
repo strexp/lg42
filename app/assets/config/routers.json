@@ -43,6 +43,10 @@
     "name": "mci1.us",
     "country": "US",
     "location": "Kansas City, United States"
+  },
+  "fd00:1926:817:7::": {
+    "name": "tyo1.jp",
+    "country": "JP",
+    "location": "Tokyo, Japan"
   }
 }
-
