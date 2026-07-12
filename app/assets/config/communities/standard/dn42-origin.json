@@ -1,0 +1,10 @@
+[
+  {
+    "community": [64511, -1],
+    "title": "DN42 Origin: {origin}",
+    "color": "#8b5cf6",
+    "template": {
+      "origin": { "source": 2, "mapping": "dn42-origin" }
+    }
+  }
+]

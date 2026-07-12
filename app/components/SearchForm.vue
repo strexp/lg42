@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Address6 } from 'ip-address'
+import { validateIpOrPrefix } from '~/utils/validateIp'
 
 const props = defineProps<{
   loading: boolean
@@ -15,6 +15,10 @@ const emit = defineEmits<{
 const valid = ref(false)
 const focused = ref(false)
 
+const runtimeConfig = useRuntimeConfig()
+const siteTitle = runtimeConfig.public.siteTitle as string
+const siteDescr = runtimeConfig.public.siteDescr as string
+
 const query = computed({
   get: () => props.modelValue || '',
   set: (val) => emit('update:modelValue', val)
@@ -23,13 +27,11 @@ const query = computed({
 const rules = [
   (v: string) => !!v || '',
   (v: string) => {
-    try {
-      new Address6(v)
-    } catch (AddressError) {
-      return 'Invalid IPv6 format'
+    const result = validateIpOrPrefix(v)
+    if (result.isValid) {
+      return true
     }
-    if (!v.startsWith('fd')) return 'Not a DN42 IPv6 address'
-    return true
+    return result.errorMessage
   }
 ]
 
@@ -49,10 +51,10 @@ const submit = () => {
       :class="compact ? 'h-0 opacity-0' : 'h-auto mb-8 opacity-100'"
     >
       <h1 class="text-h4 text-sm-h3 text-md-h2 font-weight-bold mb-2 text-center text-primary">
-        lookingglass42
+        {{ siteTitle }}
       </h1>
       <div class="d-flex align-center text-medium-emphasis mt-2">
-        <span class="text-subtitle-1">Niantic Network Looking Glass</span>
+        <span class="text-subtitle-1">{{ siteDescr }}</span>
       </div>
     </div>
 
@@ -62,7 +64,7 @@ const submit = () => {
           <v-text-field
             v-model="query"
             :rules="rules"
-            placeholder="IPv6 Address / CIDR"
+            placeholder="IPv4/IPv6 Address / CIDR"
             variant="outlined"
             bg-color="rgba(15, 23, 42, 0.6)"
             :loading="loading"

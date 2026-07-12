@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { isIpv4 } from '~/utils/validateIp'
 import type { ApiResponse, Route } from '~/types/api'
 
 const route = useRoute()
@@ -11,7 +12,9 @@ const panel = ref<string[]>([])
 const hasSearched = ref(false)
 const searchQuery = ref('')
 
-const API_BASE = 'https://lg-api.nia.dn42'
+const runtimeConfig = useRuntimeConfig()
+const API_BASE = runtimeConfig.public.apiBase
+const siteFooter = runtimeConfig.public.siteFooter as string
 
 onMounted(() => {
   if (route.query.ip) {
@@ -38,12 +41,16 @@ const performLookup = async (query: string) => {
 
   router.replace({ query: { ...route.query, ip: query } })
 
+  // Determine route table based on IP version
+  const isV4 = isIpv4(query)
+  const table = isV4 ? 'master4' : 'master6'
+
   let url = ''
   if (query.includes('/')) {
     const [net, mask] = query.split('/')
-    url = `${API_BASE}/route/net/${net}/mask/${mask}/table/master6`
+    url = `${API_BASE}/route/net/${net}/mask/${mask}/table/${table}`
   } else {
-    url = `${API_BASE}/route/net/${query}/table/master6`
+    url = `${API_BASE}/route/net/${query}/table/${table}`
   }
 
   try {
@@ -64,7 +71,7 @@ const performLookup = async (query: string) => {
       result.value = data
     }, 300)
   } catch (e: any) {
-    if (e.response?.status === 404) {
+    if (e.response?.status === 404 || e.response?.status === 500) {
       error.value = 'No matching routing entry found.'
     } else {
       error.value = e.message || 'Failed to fetch data'
@@ -206,9 +213,7 @@ const groupedRoutes = computed(() => {
         </v-expansion-panel>
       </v-expansion-panels>
     </div>
-    <div class="text-center text-caption text-disabled mt-8 pb-8">
-      Niantic Network @ AS4242421331
-    </div>
+    <div class="text-center text-caption text-disabled mt-8 pb-8">{{ siteFooter }}</div>
   </v-container>
 </template>
 

@@ -1,0 +1,23 @@
+[
+  {
+    "community": [4242422601, 120, -1],
+    "title": "2601: Host ID: {host}",
+    "color": "#22c55e",
+    "template": {
+      "host": { "source": 3 }
+    }
+  },
+  {
+    "community": [4242422601, 130, 1],
+    "title": "2601: Direct Peer",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242422601, 140, -1],
+    "title": "2601: Import: {origin}",
+    "color": "#6366f1",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "community": [4242423914, 100, -1],
+    "title": "3914: Import: {origin}",
+    "color": "#6366f1",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  }
+]

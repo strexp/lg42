@@ -1,0 +1,130 @@
+[
+  {
+    "community": [4242420803, 666, 0],
+    "title": "0803: Blackhole",
+    "color": "#000000"
+  },
+  {
+    "community": [4242420803, 2, 1],
+    "title": "0803: Local Pref: 100",
+    "color": "#10b981"
+  },
+  {
+    "community": [4242420803, 2, 2],
+    "title": "0803: Local Pref: 200",
+    "color": "#059669"
+  },
+  {
+    "community": [4242420803, 2, 3],
+    "title": "0803: Local Pref: 0",
+    "color": "#f59e0b"
+  },
+  {
+    "community": [4242420803, 5, -1],
+    "title": "0803: Prepend x{times}",
+    "color": "#f59e0b",
+    "template": {
+      "times": { "source": 3 }
+    }
+  },
+  {
+    "community": [4242420803, 4, 10],
+    "title": "0803: Peer Type: Full Table",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242420803, 4, 20],
+    "title": "0803: Peer Type: Transit",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242420803, 4, 21],
+    "title": "0803: Peer Type: Private Transit",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242420803, 4, 30],
+    "title": "0803: Peer Type: Downstream",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242420803, 4, 40],
+    "title": "0803: Peer Type: Peer",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242420803, 4, 41],
+    "title": "0803: Peer Type: Private Peer",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242420803, 20, 1],
+    "title": "0803: RPKI: VALID",
+    "color": "#10b981"
+  },
+  {
+    "community": [4242420803, 20, 2],
+    "title": "0803: RPKI: INVALID",
+    "color": "#ef4444"
+  },
+  {
+    "community": [4242420803, 20, 3],
+    "title": "0803: RPKI: UNKNOWN",
+    "color": "#9ca3af"
+  },
+  {
+    "community": [4242420803, 20, 4],
+    "title": "0803: RPKI: INVALID (Flapping)",
+    "color": "#b91c1c"
+  },
+  {
+    "community": [4242420803, 6, -1],
+    "title": "0803: Origin: {origin}",
+    "color": "#8b5cf6",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242420803, 7, -1],
+    "title": "0803: Import: {origin}",
+    "color": "#6366f1",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242420803, 9, 1],
+    "title": "0803: Source: iBGP",
+    "color": "#ffb74d"
+  },
+  {
+    "community": [4242420803, 9, 2],
+    "title": "0803: Source: eBGP",
+    "color": "#7986cb"
+  },
+  {
+    "community": [4242420803, 11, -1],
+    "title": "0803: Prepend x1 @ {origin}",
+    "color": "#fcd34d",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242420803, 12, -1],
+    "title": "0803: Prepend x2 @ {origin}",
+    "color": "#fcd34d",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242420803, 13, -1],
+    "title": "0803: Prepend x3 @ {origin}",
+    "color": "#fcd34d",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  }
+]

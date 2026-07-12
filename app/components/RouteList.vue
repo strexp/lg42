@@ -90,25 +90,55 @@
             style="min-width: 60px"
             >Comm</span
           >
-          <div class="d-flex flex-wrap" style="gap: 4px">
-            <CommunityChip
-              v-for="c in route.bgp.communities"
-              :key="JSON.stringify(c)"
-              :value="c"
-              type="communities"
-            />
-            <CommunityChip
-              v-for="c in route.bgp.large_communities"
-              :key="JSON.stringify(c)"
-              :value="c"
-              type="large_communities"
-            />
-            <CommunityChip
-              v-for="c in route.bgp.ext_communities"
-              :key="JSON.stringify(c)"
-              :value="c"
-              type="ext_communities"
-            />
+          <div class="d-flex flex-column" style="gap: 8px">
+            <!-- Regular Communities -->
+            <div v-if="route.bgp.communities?.length" class="d-flex flex-wrap" style="gap: 4px">
+              <CommunityChip
+                v-for="c in route.bgp.communities"
+                :key="JSON.stringify(c)"
+                :value="c"
+                type="communities"
+              />
+            </div>
+            <!-- Extended Communities -->
+            <div v-if="route.bgp.ext_communities?.length" class="d-flex flex-wrap" style="gap: 4px">
+              <CommunityChip
+                v-for="c in route.bgp.ext_communities"
+                :key="JSON.stringify(c)"
+                :value="c"
+                type="ext_communities"
+              />
+            </div>
+            <!-- Large Communities Grouped by ASN -->
+            <div
+              v-if="route.bgp.large_communities?.length"
+              class="d-flex flex-column"
+              style="gap: 4px"
+            >
+              <div
+                v-for="(items, asn) in groupLargeCommunities(route.bgp.large_communities)"
+                :key="asn"
+                class="d-flex align-center"
+              >
+                <div class="d-flex flex-wrap" style="gap: 4px">
+                  <v-chip
+                    size="x-small"
+                    color="default"
+                    variant="outlined"
+                    class="mr-2 font-weight-bold"
+                    label
+                  >
+                    {{ asn }}
+                  </v-chip>
+                  <CommunityChip
+                    v-for="c in items"
+                    :key="JSON.stringify(c)"
+                    :value="c"
+                    type="large_communities"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -141,6 +171,20 @@ const hasCommunities = (r: Route) => {
   return (
     r.bgp.communities?.length || r.bgp.large_communities?.length || r.bgp.ext_communities?.length
   )
+}
+
+const groupLargeCommunities = (communities: any[]): Record<string, any[]> => {
+  const grouped: Record<string, any[]> = {}
+  for (const c of communities) {
+    if (Array.isArray(c) && c.length >= 1) {
+      const asn = String(c[0])
+      if (!grouped[asn]) {
+        grouped[asn] = []
+      }
+      grouped[asn].push(c)
+    }
+  }
+  return grouped
 }
 </script>
 

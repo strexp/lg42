@@ -1,0 +1,22 @@
+[
+  {
+    "community": [64511, 31],
+    "title": "DN42 Enc: Unencrypted",
+    "color": "#ef4444"
+  },
+  {
+    "community": [64511, 32],
+    "title": "DN42 Enc: Unsafe VPN",
+    "color": "#f97316"
+  },
+  {
+    "community": [64511, 33],
+    "title": "DN42 Enc: Safe VPN (No PFS)",
+    "color": "#84cc16"
+  },
+  {
+    "community": [64511, 34],
+    "title": "DN42 Enc: Safe VPN (PFS)",
+    "color": "#10b981"
+  }
+]

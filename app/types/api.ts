@@ -10,6 +10,12 @@ export interface CommunityMeta {
   ext_communities?: string
   title: string
   color?: string
+  // Template for filling placeholders in title
+  // Keys are placeholder names (e.g., "origin", "country") which match {key} in title
+  // Values are objects with:
+  // - source: number (1-based index in community array)
+  // - mapping: optional string key to look up in wellknown.json
+  template?: Record<string, { source: number; mapping?: string }>
 }
 
 export interface CommunityDescriptor {
@@ -37,6 +43,7 @@ export interface Route {
   age: string
   type: string[]
   bgp: BgpAttributes
+  primary?: boolean
 }
 
 export interface ApiResponse {
@@ -44,6 +51,7 @@ export interface ApiResponse {
     Version: string
     result_from_cache: boolean
   }
+  cached_at?: string
   ttl: string
   routes: Route[]
   error?: string

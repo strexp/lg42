@@ -1,0 +1,59 @@
+[
+  {
+    "community": [4242422189, 255, -1],
+    "title": "2189: IGP Cost: {cost}",
+    "color": "#06b6d4",
+    "template": {
+      "cost": { "source": 3 }
+    }
+  },
+  {
+    "community": [4242422189, 100, -1],
+    "title": "2189: Node ID: {id}",
+    "color": "#8b5cf6",
+    "template": {
+      "id": { "source": 3 }
+    }
+  },
+  {
+    "community": [4242422189, 101, -1],
+    "title": "2189: Node Region: {region}",
+    "color": "#6366f1",
+    "template": {
+      "region": { "source": 3 }
+    }
+  },
+  {
+    "community": [4242422189, 102, -1],
+    "title": "2189: Node Country: {origin}",
+    "color": "#ec4899",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242422189, 10, 0],
+    "title": "2189: Role: Full",
+    "color": "#22c55e"
+  },
+  {
+    "community": [4242422189, 10, 1],
+    "title": "2189: Role: Transit",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242422189, 10, 2],
+    "title": "2189: Role: Peer",
+    "color": "#8b5cf6"
+  },
+  {
+    "community": [4242422189, 10, 3],
+    "title": "2189: Role: Downstream",
+    "color": "#f59e0b"
+  },
+  {
+    "community": [4242422189, 10, 4],
+    "title": "2189: Role: Upstream",
+    "color": "#ef4444"
+  }
+]

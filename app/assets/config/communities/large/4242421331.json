@@ -1,0 +1,130 @@
+[
+  {
+    "community": [4242421331, 666, 0],
+    "title": "1331: Blackhole",
+    "color": "#000000"
+  },
+  {
+    "community": [4242421331, 2, 1],
+    "title": "1331: Local Pref: 100",
+    "color": "#10b981"
+  },
+  {
+    "community": [4242421331, 2, 2],
+    "title": "1331: Local Pref: 200",
+    "color": "#059669"
+  },
+  {
+    "community": [4242421331, 2, 3],
+    "title": "1331: Local Pref: 0",
+    "color": "#f59e0b"
+  },
+  {
+    "community": [4242421331, 5, -1],
+    "title": "1331: Prepend x{times}",
+    "color": "#f59e0b",
+    "template": {
+      "times": { "source": 3 }
+    }
+  },
+  {
+    "community": [4242421331, 4, 10],
+    "title": "1331: Peer Type: Full Table",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242421331, 4, 20],
+    "title": "1331: Peer Type: Transit",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242421331, 4, 21],
+    "title": "1331: Peer Type: Private Transit",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242421331, 4, 30],
+    "title": "1331: Peer Type: Downstream",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242421331, 4, 40],
+    "title": "1331: Peer Type: Peer",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242421331, 4, 41],
+    "title": "1331: Peer Type: Private Peer",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [4242421331, 20, 1],
+    "title": "1331: RPKI: VALID",
+    "color": "#10b981"
+  },
+  {
+    "community": [4242421331, 20, 2],
+    "title": "1331: RPKI: INVALID",
+    "color": "#ef4444"
+  },
+  {
+    "community": [4242421331, 20, 3],
+    "title": "1331: RPKI: UNKNOWN",
+    "color": "#9ca3af"
+  },
+  {
+    "community": [4242421331, 20, 4],
+    "title": "1331: RPKI: INVALID (Flapping)",
+    "color": "#b91c1c"
+  },
+  {
+    "community": [4242421331, 6, -1],
+    "title": "1331: Origin: {origin}",
+    "color": "#8b5cf6",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242421331, 7, -1],
+    "title": "1331: Import: {origin}",
+    "color": "#6366f1",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242421331, 11, -1],
+    "title": "1331: Prepend x1 @ {origin}",
+    "color": "#fcd34d",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242421331, 12, -1],
+    "title": "1331: Prepend x2 @ {origin}",
+    "color": "#fcd34d",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242421331, 13, -1],
+    "title": "1331: Prepend x3 @ {origin}",
+    "color": "#fcd34d",
+    "template": {
+      "origin": { "source": 3, "mapping": "dn42-origin" }
+    }
+  },
+  {
+    "community": [4242421331, 9, 1],
+    "title": "1331: Source: iBGP",
+    "color": "#ffb74d"
+  },
+  {
+    "community": [4242421331, 9, 2],
+    "title": "1331: Source: eBGP",
+    "color": "#7986cb"
+  }
+]

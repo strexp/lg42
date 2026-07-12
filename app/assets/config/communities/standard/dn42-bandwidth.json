@@ -1,0 +1,27 @@
+[
+  {
+    "community": [64511, 21],
+    "title": "DN42 Bandwidth: >= 0.1 Mbps",
+    "color": "#dbeafe"
+  },
+  {
+    "community": [64511, 22],
+    "title": "DN42 Bandwidth: >= 1 Mbps",
+    "color": "#93c5fd"
+  },
+  {
+    "community": [64511, 23],
+    "title": "DN42 Bandwidth: >= 10 Mbps",
+    "color": "#60a5fa"
+  },
+  {
+    "community": [64511, 24],
+    "title": "DN42 Bandwidth: >= 100 Mbps",
+    "color": "#3b82f6"
+  },
+  {
+    "community": [64511, 25],
+    "title": "DN42 Bandwidth: >= 1 Gbps",
+    "color": "#1d4ed8"
+  }
+]
