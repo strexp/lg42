@@ -126,5 +126,13 @@
     "template": {
       "origin": { "source": 3, "mapping": "dn42-origin" }
     }
+  },
+  {
+    "community": [4242420803, 8, -1],
+    "title": "0803: Import Node: {id}",
+    "color": "#8b5cf6",
+    "template": {
+      "id": { "source": 3 }
+    }
   }
 ]

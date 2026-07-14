@@ -126,5 +126,13 @@
     "community": [4242421331, 9, 2],
     "title": "1331: Source: eBGP",
     "color": "#7986cb"
+  },
+  {
+    "community": [4242421331, 8, -1],
+    "title": "1331: Import Node: {id}",
+    "color": "#8b5cf6",
+    "template": {
+      "id": { "source": 3 }
+    }
   }
 ]
